@@ -1,0 +1,8 @@
+
+todos:
+  done:
+
+  pendings:
+    what is http.IncomingMessage
+    clear todos
+    draw a mind map
