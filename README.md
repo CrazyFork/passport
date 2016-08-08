@@ -1,11 +1,7 @@
 ## mind map
-[](/xmind-workflow.png)
+[![xmind wokflow](xmind-workflow.png)]
 
 
-
-
-
-[![passport banner](http://cdn.auth0.com/img/passport-banner-github.png)](http://passportjs.org)
 
 # Passport
 
