@@ -1,3 +1,10 @@
+## mind map
+[](/xmind-workflow.png)
+
+
+
+
+
 [![passport banner](http://cdn.auth0.com/img/passport-banner-github.png)](http://passportjs.org)
 
 # Passport
@@ -100,7 +107,7 @@ Passport provides an `authenticate()` function, which is used as route
 middleware to authenticate requests.
 
 ```javascript
-app.post('/login', 
+app.post('/login',
   passport.authenticate('local', { failureRedirect: '/login' }),
   function(req, res) {
     res.redirect('/');
@@ -163,11 +170,10 @@ $ make test
 
 ## Supporters
 
-This project is supported by ![](http://passportjs.org/images/supported_logo.svg) [Auth0](https://auth0.com) 
+This project is supported by ![](http://passportjs.org/images/supported_logo.svg) [Auth0](https://auth0.com)
 
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2011-2015 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
-

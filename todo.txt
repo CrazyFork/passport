@@ -1,3 +1,10 @@
+## Snippets
+
+    // lib/strategies/session.js
+    // pause stream to prevent event from triggering while authenticating user.
+    var paused = options.pauseStream ? pause(req) : null;
+
+
 
 todos:
   done:
@@ -5,4 +12,7 @@ todos:
   pendings:
     what is http.IncomingMessage
     clear todos
-    draw a mind map
+    how make node is used.
+
+    app.use(connect.session({ secret: 'keyboard cat' }));
+      secret what for?
